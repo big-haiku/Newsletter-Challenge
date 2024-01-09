@@ -37,8 +37,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/newsletter-created-using-form-submission-nvScybIjWP)
+- Github repo: (https://github.com/big-haiku/Newsletter-Challenge)
+- Live Site URL: (https://big-haiku.github.io/Newsletter-Challenge/)
 
 ## My process
 
