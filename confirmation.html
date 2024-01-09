@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+</head>
+<body>
+    <main class="page">
+        <article class="pageThanks">
+            <img src="assets/images/icon-success.svg" alt="">
+            <h1>Thanks for subscribing!</h1>
+            <p class="standardFont">A confirmation email has been sent to <span class="insertEmailHere"></span>. Please open it and click the button inside to confirm your subscription.</p>
+            <a draggable="false" class="purpleButton" href="index.html">Dismiss message</a>
+        </article>
+    </main>
+
+
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Get the email parameter from the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const email = urlParams.get('email');
+
+        // Update the content of the span.insertEmailHere element
+        const insertEmailHere = document.querySelector('.insertEmailHere');
+        if (insertEmailHere && email) {
+            insertEmailHere.textContent = decodeURIComponent(email);
+        }
+    });
+    </script>
+</body>
+</html>

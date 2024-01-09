@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+</head>
+<body>
+    <main class="page">
+        <section class="pageContent">
+            <img class="desktopImg" src="assets/images/illustration-sign-up-desktop.svg" alt="">
+            <img class="mobileImg" src="assets/images/illustration-sign-up-mobile.svg" alt="">
+            
+            <article class="flexText">
+                <h1 class="titleFont">Stay updated!</h1>
+                <p class="standardFont">Join 60,000+ product managers receiving monthly updates on:</p>
+                <ul class="grid">
+                    <img class="listTick" src="assets/images/icon-list.svg" alt="">
+                    <li>
+                    Product discovery and building what matters
+                    </li>
+                    <img class="listTick" src="assets/images/icon-list.svg" alt="">
+                    <li>
+                    Measuring to ensure updates are a success
+                    </li>
+                    <img class="listTick" src="assets/images/icon-list.svg" alt="">
+                    <li>
+                    And much more!
+                    </li>
+                </ul>
+
+                
+                <form class="subscriptionForm">
+                    <div class="seperator tinyFont">
+                        <label for="email">Email address</label>
+                        <label class="invalidEmail" for="email">Valid email required</label>
+                    </div>
+
+                    <input type="email" class="email standardFont" name="email" placeholder="email@company.com" required>
+                    <button class="purpleButton" type="submit">Subscribe to monthly newsletter</button>
+                </form>
+                <div class="attribution tinyFont">
+                    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                    Coded by <a href="#">big_haiku</a>.
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
