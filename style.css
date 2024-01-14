@@ -150,23 +150,18 @@ h1, p, ul {
                     .listTick:first-child {
                         grid-area: tick;
                     }
-                    
-                    .listTick:nth-child(2) {
-                        grid-area: tick2;
-                    }
-                    
-                    .listTick:nth-child(3) {
-                        grid-area: tick3;
-                    }
-                
-                    .flexText ul li:first-child {
+                    .flexText ul li:nth-child(2) {
                         grid-area: text;
                     }
-                    
-                    .flexText ul li:nth-child(2) {
+                    .listTick:nth-child(3) {
+                        grid-area: tick2;
+                    }
+                    .flexText ul li:nth-child(4) {
                         grid-area: text2;
                     }
-                    
+                    .listTick:nth-child(5) {
+                        grid-area: tick3;
+                    }
                     .flexText ul li:last-child {
                         grid-area: text3;
                     }
